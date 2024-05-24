@@ -1,0 +1,61 @@
+{
+  "launcher": {
+    "name": "LAUNCHER",
+    "builds": [
+    {
+    "os": "windows",
+    "architecture": "i386",
+    "url": "https://static.tibia.com/launcher/launcher-windows-current/package.json",
+    "versionurl": "https://static.tibia.com/launcher/launcher-windows-current/package.json.version"
+    },
+    {
+    "os": "macos",
+    "architecture": "x86_64",
+    "url": "https://static.tibia.com/launcher/launcher-macos-current/package.json",
+    "versionurl": "https://static.tibia.com/launcher/launcher-windows-current/package.json.version"
+    },
+    {
+    "os": "linux",
+    "architecture": "x86_64",
+    "url": "https://static.tibia.com/launcher/launcher-linux-current/package.json",
+    "versionurl": "https://static.tibia.com/launcher/launcher-windows-current/package.json.version"
+    }
+    ]
+  },
+  "packages": [
+  {
+    "name": "Tibia",
+    "directoryname": "Tibia",
+    "logolinktarget": "https://www.tibia.com/",
+    "installautomatically": true,
+    "builds": [
+      {
+      "os": "windows",
+      "architecture": "i386",
+      "url": "https://static.tibia.com/launcher/tibiaclient-windows-current/package.json",
+      "versionurl": "https://static.tibia.com/launcher/tibiaclient-windows-current/package.json.version",
+      "assetsurl": "https://static.tibia.com/launcher/assets-current/assets.json",
+      "assetsversionurl": "https://static.tibia.com/launcher/assets-current/assets.json.sha256"
+      },
+      {
+      "os": "macos",
+      "architecture": "x86_64",
+      "url": "https://static.tibia.com/launcher/tibiaclient-macos-current/package.json",
+      "versionurl": "https://static.tibia.com/launcher/tibiaclient-macos-current/package.json.version",
+      "assetsurl": "https://static.tibia.com/launcher/assets-current/assets-macos.json",
+      "assetsversionurl": "https://static.tibia.com/launcher/assets-current/assets.json.sha256"
+      },
+      {
+      "os": "linux",
+      "architecture": "x86_64",
+      "url": "https://static.tibia.com/launcher/tibiaclient-linux-current/package.json",
+      "versionurl": "https://static.tibia.com/launcher/tibiaclient-linux-current/package.json.version",
+      "assetsurl": "https://static.tibia.com/launcher/assets-current/assets.json",
+      "assetsversionurl": "https://static.tibia.com/launcher/assets-current/assets.json.sha256"
+      }
+    ]
+  }
+  ],
+  "hardwaresurvey": "https://www.tibia.com/clientservices/hardwarereceiver.php",
+  "hints": "https://static.tibia.com/hints.json"
+}

@@ -1,0 +1,4 @@
+[ 2024-05-23 11:51:10,013 ] Warning: Setting a new default format with a different version or profile after the global shared context is created may cause issues with context sharing.
+[ 2024-05-23 11:51:11,482 ] Using spritesheet cache size of 910
+[ 2024-05-23 11:51:12,863 ] Asset loading complete
+[ 2024-05-23 11:51:14,569 ] Client is started for first the time.
